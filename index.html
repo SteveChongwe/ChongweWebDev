@@ -4,7 +4,14 @@
 <title>Muscco Website Development Training 2023</title>
 </head>
 <body>
-    <h1><strong><big>MUSCCO WEBSITE DEVELOPMENT AND DESIGN TRAINING 2023</big></strong></h1>
+  <marquee
+  direction="down"
+  width="85%"
+  height="70%"
+  behavior="alternate"
+  style="border:solid">
+  <marquee behavior="alternate"><h1><strong><big><font color="Green">MUSCCO WEBSITE DEVELOPMENT AND DESIGN TRAINING 2023</big></strong></font></h1> </marquee>
+</marquee>
        <H2> TRAINING OUTLINE</H2>
        <!-- <h2>This is a course outline </h2> -->
     <p>
@@ -16,6 +23,30 @@
             <li><i>Git and Github overview</i></li>
 
         </UL>    
+    </p>
+
+    <p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name"><br><br>
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Female</label> <br><br>
+            <label for="district">District: </label>
+            <select name="city" id="City">
+                <option>Select an option</option>
+                <option value="Blantyre"></option>
+                <option value="Lilongwe">Lilongwe</option>
+                <option value="Mzuzu">Mzuzu</option>
+            </select><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea><br><br>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Subscribe?</label><br><br>
+            <input type="submit" value="Submit">
+        </form>   
     </p>
 </body>
 </html>
